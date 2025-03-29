@@ -4,12 +4,12 @@ import "../index.css";
 function Menu() {
   const pizzaList = pizzaData.map((pizza, index) => {
     return (
-      <div key={index} className="menu">
+      <li key={index} className={`pizza ${pizza.soldOut ? "sold-out" : ""}`}>
         <img src={pizza.photoName} alt={pizza.name} />
         <h3>{pizza.name}</h3>
         <p>{pizza.ingredients}</p>
-        {pizza.soldOut ? <p>Sold out!</p> : <p>${pizza.price}</p>}
-      </div>
+        <span> {pizza.soldOut ? "Sold out!" : pizza.price}</span>
+      </li>
     );
   });
 
@@ -20,7 +20,7 @@ function Menu() {
         Authentic Italian cuisine. 6 creative dishes to choose from. All from
         our stone oven, all organic, all delicious.
       </p>
-      {pizzaList}
+      <ul className="pizzas"> {pizzaList}</ul>
     </main>
   );
 }
