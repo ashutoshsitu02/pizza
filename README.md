@@ -15,6 +15,10 @@ This is a simple and interactive pizza menu website built using **React**. It is
 - JavaScript (ES6+)
 - CSS
 
+## 🎬 Demo
+
+![Demo Screenshot](public/Demo.png)
+
 ## 📌 Installation
 
 1. Clone the repository:
