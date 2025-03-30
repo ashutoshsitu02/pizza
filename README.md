@@ -24,7 +24,6 @@ This is a simple and interactive pizza menu website built using **React**. It is
 1. Clone the repository:
    ```sh
    git clone https://github.com/ashutoshsitu02/pizza.git
-   cd pizza
    ```
 2. Install dependencies:
    ```sh
