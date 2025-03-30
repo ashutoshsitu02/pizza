@@ -25,15 +25,19 @@ This is a simple and interactive pizza menu website built using **React**. It is
    ```sh
    git clone https://github.com/ashutoshsitu02/pizza.git
    ```
-2. Install dependencies:
+2. Navigate to the project directory:
+   ```sh
+   cd pizza
+   ```
+3. Install dependencies:
    ```sh
    npm install
    ```
-3. Start the development server:
+4. Start the development server:
    ```sh
    npm start
    ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📂 Project Structure
 
